@@ -33,6 +33,6 @@ app.post("/check",async(req,res)=>{
 const port=process.env.port;
 
 // Start the server
-app.listen(port, () => {
+app.listen(8080, () => {
   console.log(`Server is running on http://localhost:${port}`);
 });
