@@ -28,6 +28,10 @@ app.post("/check",async(req,res)=>{
   res.send(JSON.stringify(data))
 })
 
+app.get("/free",async(req,res)=>{
+  res.send("HOSTING IS DONE")
+}
+
 
 
 const port=process.env.port;
